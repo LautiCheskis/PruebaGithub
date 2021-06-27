@@ -1,0 +1,45 @@
+@import '../base/listas';
+@import '../base/variables';
+@import '../components/mixin';
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+body {
+    font-size: 1rem;
+    background-color: color nth($colores , 1 );
+
+}
+/*Parrafos*/
+p {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/*Encabezados*/
+h3 {
+    @include encabezados (white, Georgia);
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+        &:hover {
+        text-decoration: underline color nth($colores , 3);
+        }
+}
+
+h5 {
+    font-size: 1rem;
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15px;
+    text-decoration: underline color nth($colores , 3);
+}

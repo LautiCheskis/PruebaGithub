@@ -1,0 +1,24 @@
+@import '../base/variables';
+@import '../base/listas';
+
+/*GRID*/ /*Foto local y google maps*/
+.grid-fila {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'foto-local foto-localTwo';
+    width: 100%;  
+        .foto-local {
+            width: 100%;
+            margin: 50px;
+            padding: 50px;
+                .foto-localTwo {
+                    width: 100%;
+                    margin: 50px;
+                    padding: 50px;
+                        .foto {
+                        height: 387px;
+                        }
+                }
+        }
+}

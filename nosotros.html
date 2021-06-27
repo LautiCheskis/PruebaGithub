@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Meta etiquetas -->
+
+    <meta name="description" content="Creadores de momentos soñados, somos desarrolladores de las bebidas gaseosas más consumidas mundialmente,
+    poseemos productos de todos los sabores.">
+    
+    <meta name="keywords" content="Coca-Cola, productos, fundacion, sabor, comercio, venta online, empresa, ">
+
+    
+    <title>Coca-Cola | Aca encontrarás la información necesaria</title>
+  </head>
+  <body>
+    <header>
+        
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html" title="Redirige a la pagina principal">Coca-Cola</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="nosotros.html" title="Redirige a la pagina de nosotros">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="products.html" tabindex="-1" aria-disabled="true" title="Redirige a la de productos">Productos</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <section id="productos" class="container-fluid bg-secondary py-5 bg-danger">
+      <!-- Seguimos practicando grid con breakpoints.
+            Vimos las clases container y container-fluid
+            Utilizamos un componente card
+        -->
+      <div class="container">
+        <h2 class="text-center">NOSOTROS</h2>
+        <div class="row">
+          <div class="col-lg-4 col-12">
+            <div class="card">
+              <img src="image/fundacioncoca1.jpg" class="card-img-top" alt="Lata de coca y vaso">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">La Fundación Coca-Cola nace en 1993 con el objetivo de impulsar el talento
+                   y acercar la cultura a toda la sociedad, especialmente a los más jóvenes,
+                    a través de iniciativas que abarcan desde el teatro al arte, pasando por la escritura creativa.</p>
+                <a href="#" class="btn btn-primary">Coca Cola</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div class="card">
+              <img src="image/fundacion2.jpg" class="card-img-top" alt="Tapa de coca cola antigua">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">La Fundación Coca-Cola tiene una firme apuesta por el 
+                  talento de los jóvenes en nuestro país, desarrollando proyectos propios e impulsando
+                   acciones que contribuyan a su educación, cultura y capacitación para abordar con más confianza su futuro.</p>
+                <a href="#" class="btn btn-primary">Fundación</a>
+              </div>
+            </div>
+          </div>
+          <img src="image/lugarcoca.jpg" alt="foto lugares coca" class="col-lg-4 col-sm-6 col-12">
+  
+  
+      </div>
+      </div>
+    </section>
+  
+    <section id="contacto" class="container my-5">
+      <!-- Vimos el componente form
+            Vimos display:none y display block.
+            Recordar: si queremos que el form se vea en desktop nada más entonces en section agregar las clases d-none d-lg-block
+        -->
+      <h2>Contacto</h2>
+      <!-- Comienzo componente form -->
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Dirección</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Número">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Departamento</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Departamento, Piso">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">País</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Localidad</label>
+          <select id="inputState" class="form-select">
+            <option selected>Selecciona</option>
+            <option>CABA</option>
+            <option>GBA</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Código Postal</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Registrarme
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary" id="enterButton">Entrar</button>
+        </div>
+      </form>
+      <!-- Fin componente form -->
+    </section>
+
+    <footer>
+
+      <!--Footer-->
+<footer>
+  <footer class="page-footer font-small teal pt-4">
+
+      <!-- Footer Text -->
+      <div class="container-fluid text-center text-md-left">
+    
+        <!-- Grid row -->
+        <div class="row">
+    
+          <!-- Grid column -->
+          <div class="col-md-6 mt-md-0 mt-3">
+    
+            <!-- Content -->
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                CONTACTOS
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="https://www.facebook.com/cocacola" title="Acceso directo a nuestro Facebook">Facebook</a></li>
+                <li><a class="dropdown-item" href="https://www.instagram.com/cocacola" title="Acceso directo a nuestro Instagram">Instagram</a></li>
+                <li><a class="dropdown-item" href="https://www.cocacola.com" title="Acceso directo a la pagina principal">Pagina oficial</a></li>
+              </ul>
+            </div>
+              <div>
+                  <div class="footer-containerTwo">
+                  <a href="https://www.facebook.com/" target="_blank">
+                      <img src="image/Facebook.png" alt="Facebook" class="logos-redes">
+                  </a>
+                  <a href="https://www.instagram.com/cocacola" target="_blank">
+                      <img src="image/Instagram.jpg" alt="Instagram" class="logos-redes">
+                  </a>
+                  </div>
+                  </div>
+              </div>
+          <!-- Grid column -->
+    
+          <hr class="clearfix w-100 d-md-none pb-3">
+    
+          <!-- Grid column -->
+          <div class="col-md-6 mb-md-0 mb-3">
+    
+            <!-- Content -->
+            <!-- <h5 class="text-uppercase font-weight-bold">Footer text 2</h5> -->
+            <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum
+              commodi aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id
+              excepturi hic.</p> -->
+              <div>
+                  <img src="image/logoCoca.png" alt="Logo coca" class="logoCoca">
+              </div>
+    
+          </div>
+          <!-- Grid column -->
+    
+        </div>
+        <!-- Grid row -->
+    
+      </div>
+      <!-- Footer Text -->
+    
+      <!-- Copyright -->
+      <div class="footer-containerTwo">
+      <div class="footer-copyright text-center py-3">@ COCA COLA 
+        Por Lautaro Cheskis
+      </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>-->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

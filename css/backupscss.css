@@ -1,0 +1,355 @@
+@import 'components/present';
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+body {
+    font-size: 1rem;
+    background-color: rgb(255, 14, 14);
+
+}
+/*Parrafos*/
+p {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/*Encabezados*/
+h3 {
+    color: blanchedalmond;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+        &:hover {
+        text-decoration: underline rgb(143, 108, 22);
+        }
+}
+
+h5 {
+    font-size: 1rem;
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15px;
+    text-decoration: underline rgb(143, 108, 22);
+
+}
+
+.present {
+    width: 100%;
+    height: 100vh;
+    background-image: url("image/cocanuevo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    text-align: center;
+
+    .present-container {
+        color: rgb(231, 231, 231);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+    margin-top: 30px;
+        }
+}
+
+/* BODY */
+
+/* SECCION NOSOTROS */
+.body {
+    background-color: rgb(247, 0, 0);
+    .body-izq {
+        position: relative;
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        .index {
+            display:flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+#enterbutton {
+    background-color: black;
+    border-style: none;
+}
+
+.verMas {
+    background-color: rgb(255, 17, 0);
+    transition: all 2s;
+    &:hover {
+        transform: scale(1.5);
+    }
+}
+/*imagen seccion nosotros*/
+
+
+.body {
+
+    .body-izq {
+
+        .index {
+
+            .img-izq {
+
+                img {
+                    border-radius: 100px;
+                    margin-top: 60px;
+                    margin-bottom: 30px;
+                    margin-left: 100px;
+                }
+            }
+        }
+    }
+}
+
+/*texto de nosotros*/
+.body {
+
+    .body-izq {
+
+        .index {
+
+            .texto-index {
+                color: blanchedalmond;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-style: italic;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 25px;
+                margin-right: 350px;
+            }
+        }
+    }
+}
+
+/*bottom*/
+.body {
+
+    .body-izq {
+
+        .texto-index {
+
+            .bottom {
+
+                a {
+                    color: rgb(143, 108, 22);
+                    padding-left: 0px;
+                    text-align: left;
+                    font-weight: bold; 
+                    
+                    &:hover {
+                        border: outset rgb(70, 43, 2);
+                    }
+
+                    &::before {
+                        content: "📖";
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*SECCION PRODUCTOS*/
+.body {
+
+    .body-der {
+        position: relative;
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+
+            .index {
+                display: flex;
+                justify-content: space-between;
+
+                    .texto-index {
+                        color: blanchedalmond;
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-style: italic;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        padding-left: 100px;
+
+                            .texto-index-producto {
+                                display: flex;
+                                justify-content: center;
+                            }
+                }
+            }
+    }
+}
+
+.container {
+    border-bottom: ridge rgb(233, 207, 142);
+}
+
+/*bottom*/
+.body {
+    
+    .body-der {
+
+        .index {
+
+            .texto-index {
+
+                .bottom {
+
+                    a {
+                        color: rgb(143, 108, 22);
+                        padding: 0px;
+                        margin-left: 465px;
+                        text-align: right;
+                        font-weight: bold;
+
+                        &:hover {
+                            border: outset rgb(70, 43, 2) ;
+                        }
+
+                        &::before {
+                            content: "🥯";
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.body {
+
+    .body-der {
+
+        .index {
+
+            .img-der {
+
+                img {
+                    width: 400px;
+                    border-radius: 100px;
+                    margin-top: 60px;
+                    margin-bottom: 50px;
+                    margin-right: 100px;
+                }
+            }
+        }
+    }
+}
+
+/*SECCION SUCURSALES*/
+/*BOOSTRAP*/
+
+/*GRID*/ /*Foto local y google maps*/
+.grid-fila {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'foto-local foto-localTwo';
+    width: 100%;  
+        .foto-local {
+            width: 100%;
+            margin: 50px;
+            padding: 50px;
+                .foto-localTwo {
+                    width: 100%;
+                    margin: 50px;
+                    padding: 50px;
+                        .foto {
+                        height: 387px;
+                        }
+                }
+        }
+}
+
+/*FOOTER*/
+#dropdownmenubutton1 {
+    background-color: black;
+    border-style: none;
+}
+
+.footer {
+    background-color: rgb(49, 48, 48);
+    color: rgb(255, 223, 205);
+    margin-top: none;
+    position: relative;
+        .logos-redes {
+            width: 25px;
+            border-radius: 10px;
+            margin: 10px;
+                    .logoCoca {
+                        width: 12rem;
+                        height: 12rem;
+                            .text-uppercase {
+                                margin: 40px 40px;
+                                    .footer-copyright {
+                                        display: grid;
+                                        justify-content: center;
+                                        background-color: rgb(49, 48, 48);
+                                        display: flex;
+                                        flex-direction: row;
+                                    }
+                            }
+                    }
+        }
+}
+
+/*PRODUCTOS html*/
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+        .gridTwo div{
+            padding: 1em;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            &:hover {
+                border: 1px solid rgb(255, 18, 1);
+            }
+                .coke {
+                    width: 200px;
+                    .fante {
+                        width: 200px;
+                            .sprite {
+                                width: 150px;
+                                .colorContainer {
+                                    background: rgba(255, 0, 0, 0.808);
+                                    .dropdown {
+                                        margin: 50px 50px;
+                                        text-decoration: none;
+                                        text-transform: uppercase;
+                                        color: rgb(255, 0, 0);
+                                            .text {
+                                                --main-bg-color: blanchedalmond;
+                                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                                font-style: italic;
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                padding: 25px;
+                                                margin-right: 350px;
+                                                background-color: white;
+                                            }
+                                    }
+                                }
+                            }
+                    }
+                }
+        }
+}
+

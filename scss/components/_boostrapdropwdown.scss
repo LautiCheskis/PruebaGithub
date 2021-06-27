@@ -1,0 +1,6 @@
+@import '../components/mixin.scss';
+
+/*DROPDOWN BOOSTRAP*/
+.dropdown-item {
+    @include dropdowncColor(red)
+}

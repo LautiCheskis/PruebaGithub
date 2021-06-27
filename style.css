@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+body {
+    font-size: 1rem;
+    background-color: rgb(255, 14, 14);
+
+}
+/*Parrafos*/
+p {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+/*Encabezados*/
+h3 {
+    color: blanchedalmond;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+h3:hover {
+    text-decoration: underline rgb(143, 108, 22);
+}
+h5 {
+    font-size: 1rem;
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15px;
+    text-decoration: underline rgb(143, 108, 22);
+
+}
+/*DIV*/
+div {
+    display: block;
+}
+/* HEADER */
+
+/* PRESENTACION */
+.present {
+    width: 100%;
+    height: 100vh;
+    background-image: url("image/cocanuevo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    text-align: center;
+}
+
+.present .present-container {
+    color: rgb(231, 231, 231);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+/* BODY */
+.body {
+    background-color: rgb(247, 0, 0);
+
+}
+
+        /* SECCION NOSOTROS */
+
+.body .body-izq .index {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.body .body-izq {
+    position: relative;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+/*imagen seccion nosotros*/
+.body .body-izq .index .img-izq img {
+    border-radius: 100px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+
+}
+/*texto de nosotros*/
+.body .body-izq .index .texto-index {
+    color: blanchedalmond;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    margin-right: 350px;
+}
+
+/*bottom*/
+.body .body-izq .index .texto-index  .bottom a {
+    color: rgb(143, 108, 22);
+    padding-left: 0px;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.body .body-izq .index .texto-index  .bottom a:hover {
+    border: outset rgb(70, 43, 2);
+}
+.body .body-izq .index .texto-index  .bottom a::before {
+    content: "📖";
+}
+
+        /*SECCION PRODUCTOS*/
+
+.body .body-der {
+    position: relative;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.body .body-der .index {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    border-bottom: ridge rgb(233, 207, 142);
+}
+
+.body .body-der .index .texto-index {
+    color: blanchedalmond;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+
+}
+
+.body .body-der .index .texto-index .texto-index-producto{
+    display: flex;
+    justify-content: center;
+}
+
+/*bottom*/
+.body .body-der .index .texto-index .bottom a {
+    color: rgb(143, 108, 22);
+    padding: 0px;
+    margin-left: 465px;
+    text-align: right;
+    font-weight: bold;
+}
+.body .body-der .texto-index .bottom a:hover {
+    border: outset rgb(70, 43, 2) ;
+}
+.body .body-der .texto-index .bottom a::before {
+    content: "🥯";
+}
+
+.body .body-der .index .img-der img {
+    width: 400px;
+    border-radius: 100px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+
+}
+
+        /*SECCION SUCURSALES*/
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    list-style: none;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: inherit;
+    cursor: pointer;
+}
+    
+
+
+/* Subrayado a todos los items*/
+ul li {
+    line-height: 20px;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(49, 48, 48);
+}
+/*GRID*/ /*Foto local y google maps*/
+.grid-fila {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'foto-local foto-localTwo';
+    width: 100%;  
+}
+
+.grid-fila .foto-local {
+    width: 100%;
+    margin: 50px;
+    padding: 50px;
+}
+
+.grid-fila .foto-localTwo {
+    width: 100%;
+    margin: 50px;
+    padding: 50px;
+}
+
+.foto {
+    height: 387px;
+} 
+
+/*FOOTER*/
+
+#dropdownMenuButton1 {
+    background-color: black;
+    border-style: none;
+}
+
+footer {
+    background-color: rgb(49, 48, 48);
+    color: rgb(255, 223, 205);
+    margin-top: none;
+    position: relative;
+}
+
+.logos-redes {
+    width: 25px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.logoCoca {
+    width: 12rem;
+    height: 12rem;
+    
+
+}
+
+.text-uppercase {
+    margin: 40px 40px;
+}
+
+/* .footer-containerTwo {
+    
+} */
+
+
+/*Footer Copyright*/
+.footer-copyright {
+    display: grid;
+    justify-content: center;
+
+    /* margin-bottom: 20px; */
+    background-color: rgb(49, 48, 48);
+    /* width: 100%;
+    bottom: 0%; */
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*Fin Footer*/
+
+
+
+/*PRODUCTOS html*/
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.gridTwo div{
+    /* background-color: red; */
+    padding: 1em;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.gridTwo div:hover{
+    border: 1px solid rgb(255, 18, 1);
+}
+
+.coke {
+    width: 200px;
+}
+
+.fante {
+    width: 200px;
+}
+
+.sprite {
+    width: 150px;
+}
+
+.colorContainer {
+    background: rgba(255, 0, 0, 0.808);
+}
+
+.dropdown {
+    margin: 50px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 0, 0);
+}
+
+.text{
+    --main-bg-color: blanchedalmond;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    margin-right: 350px;
+    background-color: white;
+}
+
+/*MEDIA QUERIS*/
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: #722023;
+    }
+
+    .nav-item {
+        display: none; 
+    } 
+
+    
+    .grid-fila {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas:
+        'foto-local'
+        'foto-localTwo';
+    }
+
+    .seccion-sucursales {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas:
+        'verMas btn-zonanorte'
+        'verMas btn-ZonaOeste'
+        'verMas btn-caba'
+        'verMas btn-sur';
+    }
+} 
+
+@media only screen and (min-width: 401) and (max-width: 960px) {
+    body {
+        background: #722023;
+    }
+
+    .nav-item {
+        display: none;
+    } 
+}
+
+@media only screen and (min-width: 961px) {
+    body {
+        background-color: #722023;
+    }
+
+   /*  .nav-item {
+        display: none;
+    } */
+
+    .footer-contacto .footer-copyright .logo-wpp {
+        display: none;
+    }
+}
+
+/* NOSOTROS */
+
+#enterButton {
+    background-color: black;
+    border-style: none;
+}
+
+.containerThree {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.useOne {
+    justify-content: center;
+}
+
+.verMas {
+    background-color: rgb(255, 17, 0);
+    transition: all 2s;
+}
+
+.verMas:hover {
+    transform: scale(1.5);
+} 

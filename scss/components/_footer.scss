@@ -1,0 +1,40 @@
+@import '../base/listas';
+@import '../base/variables';
+@import '../components/maps';
+
+#dropdownmenubutton1 {
+    background-color: black;
+    border-style: none;
+}
+
+.footer {
+    background-color: rgb(49, 48, 48);
+    color: rgb(255, 223, 205);
+    margin-top: none;
+    position: relative;
+        .logos-redes {
+            width: 25px;
+            border-radius: 10px;
+            margin: 10px;
+                #fb {
+                    background-color: map-get($maps , facebook );
+                
+                #ig {
+                    background-color: map-get($maps , instagram );
+                
+                    .logoCoca {
+                        width: 12rem;
+                        height: 12rem;
+                            .text-uppercase {
+                                margin: 40px 40px;
+                                    .footer-copyright {
+                                        display: grid;
+                                        justify-content: center;
+                                        background-color: rgb(49, 48, 48);
+                                        display: flex;
+                                        flex-direction: row;
+                                    }
+                            }
+            }    }   }
+        }
+}

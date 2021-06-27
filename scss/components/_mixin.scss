@@ -1,0 +1,13 @@
+@mixin dropdowncColor($color) {
+    font-size: 14px;
+    color: $color;
+    text-decoration: none;
+    background-color: $color;
+}
+
+@mixin encabezados ($color, $font-family,) {
+    color: $color;
+    font-family: $font-family;
+    font-size: 15px;
+    margin: auto;
+}

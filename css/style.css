@@ -1,0 +1,398 @@
+@charset "UTF-8";
+/* Clase { elemento: nth($colores, 1 2 o 3*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+body {
+  font-size: 1rem;
+  background-color: color #f70000;
+}
+
+/*Parrafos*/
+p {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/*Encabezados*/
+h3 {
+  color: white;
+  font-family: Georgia;
+  font-size: 15px;
+  margin: auto;
+  font-size: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+h3:hover {
+  text-decoration: underline color #8f6c16 blanchedalmond;
+}
+
+h5 {
+  font-size: 1rem;
+  color: blanchedalmond;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 15px;
+  text-decoration: underline color #8f6c16 blanchedalmond;
+}
+
+/* Clase { elemento: nth($colores, 1 2 o 3*/
+/* Clase { elemento: nth($colores, 1 2 o 3*/
+/* Clase { elemento: nth($colores, 1 2 o 3*/
+#dropdownmenubutton1 {
+  background-color: black;
+  border-style: none;
+}
+
+.footer {
+  background-color: #313030;
+  color: #ffdfcd;
+  margin-top: none;
+  position: relative;
+}
+.footer .logos-redes {
+  width: 25px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.footer .logos-redes #fb {
+  background-color: blue;
+}
+.footer .logos-redes #fb #ig {
+  background-color: #b000;
+}
+.footer .logos-redes #fb #ig .logoCoca {
+  width: 12rem;
+  height: 12rem;
+}
+.footer .logos-redes #fb #ig .logoCoca .text-uppercase {
+  margin: 40px 40px;
+}
+.footer .logos-redes #fb #ig .logoCoca .text-uppercase .footer-copyright {
+  display: grid;
+  justify-content: center;
+  background-color: #313030;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Clase { elemento: nth($colores, 1 2 o 3*/
+.body {
+  background-color: color #f70000;
+}
+.body .body-izq {
+  position: relative;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.body .body-izq .index {
+  display: flex;
+  justify-content: space-between;
+}
+
+#enterbutton {
+  background-color: color #313030;
+  border-style: none;
+}
+
+.verMas {
+  background-color: color #f70000;
+  transition: all 2s;
+}
+.verMas:hover {
+  transform: scale(1.5);
+}
+
+/*imagen seccion nosotros*/
+.body .body-izq .index .img-izq img {
+  border-radius: 100px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+}
+@media only screen and (max-width: 400px) {
+  .body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/*texto de nosotros*/
+.body .body-izq .index .texto-index {
+  color: color #e9cf8e;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  margin-right: 350px;
+}
+
+/*bottom*/
+.body .body-izq .texto-index .bottom a {
+  color: #8f6c16;
+  padding-left: 0px;
+  text-align: left;
+  font-weight: bold;
+}
+.body .body-izq .texto-index .bottom a:hover {
+  border: outset #462b02;
+}
+.body .body-izq .texto-index .bottom a::before {
+  content: "📖";
+}
+
+.card-body {
+  height: 200px;
+}
+
+/* Clase { elemento: nth($colores, 1 2 o 3*/
+.present {
+  width: 100%;
+  height: 100vh;
+  background-image: url("image/cocanuevo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  text-align: center;
+}
+.present .present-container {
+  color: color #e7e7e7;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: capitalize;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+/*SECCION PRODUCTOS*/
+/* Clase { elemento: nth($colores, 1 2 o 3*/
+.body .body-der {
+  position: relative;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.body .body-der .index {
+  display: flex;
+  justify-content: space-between;
+}
+.body .body-der .index .texto-index {
+  color: blanchedalmond;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+}
+.body .body-der .index .texto-index .texto-index-producto {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  border-bottom: ridge #e9cf8e;
+}
+
+/*bottom*/
+.body .body-der .index .texto-index .bottom a {
+  color: #8f6c16;
+  padding: 0px;
+  margin-left: 465px;
+  text-align: right;
+  font-weight: bold;
+}
+.body .body-der .index .texto-index .bottom a:hover {
+  border: outset #462b02;
+}
+.body .body-der .index .texto-index .bottom a::before {
+  content: "🥯";
+}
+
+.body .body-der .index .img-der img {
+  width: 400px;
+  border-radius: 100px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+}
+
+.gridTwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.gridTwo .gridTwo div {
+  padding: 1em;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.gridTwo .gridTwo div:hover {
+  border: 1px solid #ff1201;
+}
+.gridTwo .gridTwo div .coke .fante {
+  width: 200px;
+}
+.gridTwo .gridTwo div .coke .fante .sprite {
+  width: 150px;
+}
+.gridTwo .gridTwo div .coke .fante .sprite .colorContainer {
+  background: rgba(255, 0, 0, 0.808);
+}
+.gridTwo .gridTwo div .coke .fante .sprite .colorContainer .dropdown {
+  margin: 50px 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: red;
+}
+.gridTwo .gridTwo div .coke .fante .sprite .colorContainer .dropdown .text {
+  --main-bg-color: blanchedalmond;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  margin-right: 350px;
+  background-color: white;
+}
+
+/*PRODUCTOS html*/
+.gridTwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.gridTwo .gridTwo div {
+  padding: 1em;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.gridTwo .gridTwo div:hover {
+  border: 1px solid #ff1201;
+}
+.gridTwo .gridTwo div .coke {
+  width: 200px;
+}
+.gridTwo .gridTwo div .coke .fante {
+  width: 200px;
+}
+.gridTwo .gridTwo div .coke .fante .sprite {
+  width: 150px;
+}
+.gridTwo .gridTwo div .coke .fante .sprite .colorContainer {
+  background: rgba(255, 0, 0, 0.808);
+}
+.gridTwo .gridTwo div .coke .fante .sprite .colorContainer .dropdown {
+  margin: 50px 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: red;
+}
+.gridTwo .gridTwo div .coke .fante .sprite .colorContainer .dropdown .text {
+  --main-bg-color: blanchedalmond;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  margin-right: 350px;
+  background-color: white;
+}
+
+/* Clase { elemento: nth($colores, 1 2 o 3*/
+/*GRID*/
+/*Foto local y google maps*/
+.grid-fila {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "foto-local foto-localTwo";
+  width: 100%;
+}
+.grid-fila .foto-local {
+  width: 100%;
+  margin: 50px;
+  padding: 50px;
+}
+.grid-fila .foto-local .foto-localTwo {
+  width: 100%;
+  margin: 50px;
+  padding: 50px;
+}
+.grid-fila .foto-local .foto-localTwo .foto {
+  height: 387px;
+}
+
+/* Clase { elemento: nth($colores, 1 2 o 3*/
+/*DROPDOWN BOOSTRAP*/
+.dropdown-item {
+  font-size: 14px;
+  color: red;
+  text-decoration: none;
+  background-color: red;
+}
+
+.bodyError {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), red);
+}
+.bodyError .centrado {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bodyError .centrado .h1yp {
+  font-family: sans-serif;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-right: 380px;
+}
+
+.nav-link {
+  font-family: sans-serif;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), red);
+  border-radius: 10px solid black;
+  opacity: 1;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+/* @media screen and (min-width: 456px) {
+    .centrado {
+    flex-direction: row;
+    flex-wrap: wrap; 
+    }
+} */
+/* SE ME ROMPE EL HTML AL APLICAR LAS MEDIA QUERY */
+
+/*# sourceMappingURL=style.css.map */

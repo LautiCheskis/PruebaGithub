@@ -1,0 +1,179 @@
+/*SECCION PRODUCTOS*/
+@import '../base/variables';
+@import '../base/listas';
+
+.body {
+
+    .body-der {
+        position: relative;
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+
+            .index {
+                display: flex;
+                justify-content: space-between;
+
+                    .texto-index {
+                        color: blanchedalmond;
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-style: italic;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        padding-left: 100px;
+
+                            .texto-index-producto {
+                                display: flex;
+                                justify-content: center;
+                            }
+                }
+            }
+    }
+}
+
+.container {
+    border-bottom: ridge rgb(233, 207, 142);
+}
+
+/*bottom*/
+.body {
+    
+    .body-der {
+
+        .index {
+
+            .texto-index {
+
+                .bottom {
+
+                    a {
+                        color: rgb(143, 108, 22);
+                        padding: 0px;
+                        margin-left: 465px;
+                        text-align: right;
+                        font-weight: bold;
+
+                        &:hover {
+                            border: outset rgb(70, 43, 2) ;
+                        }
+
+                        &::before {
+                            content: "🥯";
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.body {
+
+    .body-der {
+
+        .index {
+
+            .img-der {
+
+                img {
+                    width: 400px;
+                    border-radius: 100px;
+                    margin-top: 60px;
+                    margin-bottom: 50px;
+                    margin-right: 100px;
+                }
+            }
+        }
+    }
+}
+
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+        .gridTwo div{
+            padding: 1em;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            &:hover {
+                border: 1px solid rgb(255, 18, 1);
+            }
+                .coke {
+                    .fante {
+                        width: 200px;
+                            .sprite {
+                                width: 150px;
+                                .colorContainer {
+                                    background: rgba(255, 0, 0, 0.808);
+                                    .dropdown {
+                                        margin: 50px 50px;
+                                        text-decoration: none;
+                                        text-transform: uppercase;
+                                        color: rgb(255, 0, 0);
+                                            .text {
+                                                --main-bg-color: blanchedalmond;
+                                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                                font-style: italic;
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                padding: 25px;
+                                                margin-right: 350px;
+                                                background-color: white;
+                                            }
+                                    }
+                                }
+                            }
+                    }
+                }
+        }
+}
+
+
+/*PRODUCTOS html*/
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+        .gridTwo div{
+            padding: 1em;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            &:hover {
+                border: 1px solid rgb(255, 18, 1);
+            }
+                .coke {
+                    width: 200px;
+                    .fante {
+                        width: 200px;
+                            .sprite {
+                                width: 150px;
+                                .colorContainer {
+                                    background: rgba(255, 0, 0, 0.808);
+                                    .dropdown {
+                                        margin: 50px 50px;
+                                        text-decoration: none;
+                                        text-transform: uppercase;
+                                        color: rgb(255, 0, 0);
+                                            .text {
+                                                --main-bg-color: blanchedalmond;
+                                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                                font-style: italic;
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                padding: 25px;
+                                                margin-right: 350px;
+                                                background-color: white;
+                                            }
+                                    }
+                                }
+                            }
+                    }
+                }
+        }
+}
